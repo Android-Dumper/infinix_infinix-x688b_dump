@@ -1,0 +1,4 @@
+system/system/apex/com.android.runtime.release.apex
+product/priv-app/Velvet/Velvet.apk
+super.img
+vendor/etc/dts/dts-eagle.lic
