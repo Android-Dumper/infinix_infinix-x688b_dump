@@ -1,0 +1,9 @@
+service tnevservice /vendor/bin/hw/vendor.tne@1.0-service
+    class core
+    user root
+    group root
+    onrestart restart tne
+    disabled
+
+on property:ro.boot.mode=normal
+    start tnevservice
